@@ -38,7 +38,7 @@
     
     // bring up a UIActionSheet
     UIActionSheet *myActionSheet;
-    myActionSheet = [[UIActionSheet alloc]initWithTitle:@"Hello there!" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:@"Cancel in Red" otherButtonTitles:@"Open in Safari", nil];
+    myActionSheet = [[UIActionSheet alloc]initWithTitle:@"Hello there!" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:@"Cancel in Red" otherButtonTitles:@"Other Button", nil];
     myActionSheet.actionSheetStyle = UIActionSheetStyleAutomatic;
     [myActionSheet showInView:self.view];
 }
